@@ -3,102 +3,179 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Katalog Produk Resmi</title>
-  
-  <!-- Google Fonts: Inter -->
+  <title>Nauf_fall Shop — Curated Affiliate Picks</title>
+
+  <!-- Google Font: Plus Jakarta Sans -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  
-  <!-- Font Awesome untuk Ikon Toko & UI -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
   <!-- File CSS Eksternal -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- Header & Navigasi -->
+  <!-- Ambient Light Accents (Dekorasi Background Glow) -->
+  <div class="glow-orb orb-1"></div>
+  <div class="glow-orb orb-2"></div>
+
+  <!-- Navbar -->
   <header class="navbar">
     <div class="container nav-container">
       <div class="brand">
-        <div class="brand-icon"><i class="fa-solid fa-store"></i></div>
-        <div class="brand-text">
-          <h1>Katalog Resmi</h1>
-          <p>Belanja Praktis di Marketplace Pilihan</p>
+        <div class="brand-logo">
+          <i class="fa-solid fa-bolt-lightning"></i>
+        </div>
+        <div class="brand-info">
+          <div class="brand-title-wrap">
+            <h1 class="brand-name">Nauf_fall Shop</h1>
+            <span class="affiliate-badge"><i class="fa-solid fa-check"></i> Affiliate</span>
+          </div>
+          <p class="brand-subtitle">Koleksi Rekomendasi Pilihan & Tautan Resmi</p>
         </div>
       </div>
-      <div class="nav-badges">
-        <span class="badge"><i class="fa-solid fa-shield-check"></i> 100% Original</span>
-        <span class="badge"><i class="fa-solid fa-truck-fast"></i> Pengiriman Cepat</span>
+
+      <div class="nav-tags">
+        <span class="nav-tag"><i class="fa-solid fa-sparkles"></i> Rekomendasi Terpilih</span>
+        <span class="nav-tag"><i class="fa-solid fa-link"></i> Link Resmi Terverifikasi</span>
       </div>
     </div>
   </header>
 
-  <!-- Kontrol Pencarian & Filter -->
-  <section class="controls-section">
-    <div class="container">
-      <div class="search-wrapper">
-        <i class="fa-solid fa-magnifying-glass search-icon"></i>
-        <input type="text" id="searchInput" placeholder="Cari nama produk, spesifikasi, atau kata kunci..." autocomplete="off">
-        <button id="clearSearchBtn" class="clear-btn" title="Hapus pencarian"><i class="fa-solid fa-xmark"></i></button>
-      </div>
+  <!-- Banner Hero Mini -->
+  <section class="hero-mini">
+    <div class="container hero-content">
+      <div class="hero-chip"><i class="fa-solid fa-fire"></i> Rekomendasi Tren Terbaru</div>
+      <h2>Temukan Produk Favorit Terbaik untuk Kebutuhan Anda</h2>
+      <p>Pilih dan beli langsung melalui marketplace terpercaya dengan penawaran terbaik via Shopee & Tokopedia.</p>
+    </div>
+  </section>
 
-      <div class="filter-wrapper">
-        <span class="filter-label"><i class="fa-solid fa-filter"></i> Kategori:</span>
-        <div class="category-pills" id="categoryContainer">
-          <!-- Tombol kategori akan di-render otomatis oleh script.js -->
+  <!-- Panel Pencarian & Filter -->
+  <section class="controls-section" id="catalogSection">
+    <div class="container">
+      <div class="search-sort-bar">
+        <div class="search-box">
+          <i class="fa-solid fa-magnifying-glass search-icon"></i>
+          <input type="text" id="searchInput" placeholder="Cari nama barang, spesifikasi, atau kata kunci..." autocomplete="off">
+          <button id="clearSearchBtn" class="clear-search-btn" title="Hapus"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <div class="sort-box">
+          <i class="fa-solid fa-arrow-down-short-wide sort-icon"></i>
+          <select id="sortSelect">
+            <option value="default">Urutan Default</option>
+            <option value="name-asc">Nama Produk (A &rarr; Z)</option>
+            <option value="name-desc">Nama Produk (Z &rarr; A)</option>
+            <option value="category">Berdasarkan Kategori</option>
+          </select>
         </div>
       </div>
 
-      <div class="stats-bar">
-        <span>Menampilkan <strong id="productCount">0</strong> produk</span>
+      <!-- Kategori Chips Bar -->
+      <div class="category-wrapper">
+        <div class="category-list" id="categoryContainer">
+          <!-- Kategori dirender oleh script.js -->
+        </div>
+      </div>
+
+      <!-- Status Bar & Items Per Page -->
+      <div class="status-bar">
+        <div class="status-text">
+          Menampilkan <strong id="showingRangeText">0</strong> dari <strong id="totalProductsText">0</strong> produk
+        </div>
+        <div class="per-page-selector">
+          <label for="itemsPerPage">Tampilkan:</label>
+          <select id="itemsPerPage">
+            <option value="8">8 per halaman</option>
+            <option value="12" selected>12 per halaman</option>
+            <option value="16">16 per halaman</option>
+            <option value="28">Semua (28)</option>
+          </select>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- Grid Produk -->
-  <main class="container main-content">
+  <main class="container main-container">
     <div id="productGrid" class="product-grid">
-      <!-- Card produk diisi dinamis oleh script.js -->
+      <!-- Card produk otomatis di-render oleh script.js -->
     </div>
-    
-    <!-- State Kosong (Jika Pencarian Tidak Ditemukan) -->
+
+    <!-- Empty State -->
     <div id="emptyState" class="empty-state" style="display: none;">
-      <i class="fa-regular fa-face-frown empty-icon"></i>
-      <h3>Produk tidak ditemukan</h3>
-      <p>Coba gunakan kata kunci lain atau pilih kategori "Semua".</p>
+      <div class="empty-icon-wrap">
+        <i class="fa-solid fa-box-open"></i>
+      </div>
+      <h3>Produk Tidak Ditemukan</h3>
+      <p>Tidak ada produk yang cocok dengan pencarian Anda. Coba kata kunci lain atau reset filter kategori.</p>
+      <button id="resetFilterBtn" class="btn-reset">Tampilkan Semua Produk</button>
     </div>
+
+    <!-- Pagination Controls -->
+    <nav class="pagination-wrapper" id="paginationWrapper" aria-label="Navigasi Halaman">
+      <button id="prevPageBtn" class="page-nav-btn" disabled>
+        <i class="fa-solid fa-chevron-left"></i> <span>Sebelumnya</span>
+      </button>
+      <div class="page-numbers" id="pageNumbersContainer">
+        <!-- Nomor halaman diisi dinamis oleh script.js -->
+      </div>
+      <button id="nextPageBtn" class="page-nav-btn">
+        <span>Berikutnya</span> <i class="fa-solid fa-chevron-right"></i>
+      </button>
+    </nav>
   </main>
 
   <!-- Footer -->
   <footer class="footer">
-    <div class="container footer-content">
-      <p>&copy; 2026 Katalog Resmi. Hak Cipta Dilindungi.</p>
-      <div class="footer-links">
-        <a href="https://shopee.co.id" target="_blank" rel="noopener"><i class="fa-solid fa-bag-shopping"></i> Shopee Store</a>
-        <a href="https://tokopedia.com" target="_blank" rel="noopener"><i class="fa-solid fa-shop"></i> Tokopedia Official</a>
+    <div class="container footer-layout">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <i class="fa-solid fa-bolt-lightning"></i>
+          <span>Nauf_fall Shop</span>
+        </div>
+        <p>Katalog kurasi produk affiliate rekomendasi harian. Klik langsung untuk menuju ke toko resmi marketplace pilihan Anda.</p>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Nauf_fall Shop. All rights reserved.</p>
+        <div class="footer-marketplace-pills">
+          <span class="m-pill shopee"><i class="fa-solid fa-bag-shopping"></i> Shopee Affiliate</span>
+          <span class="m-pill tokopedia"><i class="fa-solid fa-shop"></i> Tokopedia Affiliate</span>
+        </div>
       </div>
     </div>
   </footer>
 
   <!-- Modal Pop-Up Detail Produk -->
-  <div id="detailModal" class="modal-overlay">
-    <div class="modal-card">
-      <button id="closeModalBtn" class="modal-close">&times;</button>
-      <div class="modal-body">
-        <div class="modal-image-col">
+  <div id="detailModal" class="modal-backdrop">
+    <div class="modal-box">
+      <button id="closeModalBtn" class="modal-close-btn" title="Tutup">&times;</button>
+      <div class="modal-layout">
+        <div class="modal-img-wrap">
           <img id="modalImg" src="" alt="Detail Produk">
         </div>
-        <div class="modal-info-col">
-          <span id="modalCat" class="product-category">Kategori</span>
+        <div class="modal-content-wrap">
+          <div class="modal-badges">
+            <span id="modalCat" class="cat-pill">Kategori</span>
+            <span class="verified-pill"><i class="fa-solid fa-badge-check"></i> Link Terverifikasi</span>
+          </div>
           <h2 id="modalTitle">Judul Produk</h2>
-          <p id="modalDesc" class="product-desc-full"></p>
-          <div class="modal-actions">
-            <a id="modalShopee" href="#" target="_blank" class="btn btn-shopee">
+          <div class="modal-desc-box">
+            <h4>Deskripsi Produk:</h4>
+            <p id="modalDesc"></p>
+          </div>
+          <div class="affiliate-notice">
+            <i class="fa-solid fa-circle-info"></i>
+            <span>Anda akan diarahkan langsung ke aplikasi/halaman resmi marketplace untuk melanjutkan pembelian.</span>
+          </div>
+          <div class="modal-buttons">
+            <a id="modalShopee" href="#" target="_blank" rel="noopener noreferrer" class="btn-market btn-shopee">
               <i class="fa-solid fa-bag-shopping"></i> Beli di Shopee
             </a>
-            <a id="modalTokopedia" href="#" target="_blank" class="btn btn-tokopedia">
+            <a id="modalTokopedia" href="#" target="_blank" rel="noopener noreferrer" class="btn-market btn-tokopedia">
               <i class="fa-solid fa-shop"></i> Beli di Tokopedia
             </a>
           </div>
