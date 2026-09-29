@@ -40,7 +40,7 @@ const products = [
     id: 5,
     name: "Garnier Men Oil Control Bright + Oil Control Super Duo Foam 50 ml",
     category: "Perawatan Pria",
-    image: "assets/garnier_men_duo_foam.jpg",
+    image: "assets/garnier_men_duo_foam1.jpg",
     desc: "Sabun cuci muka pria dengan sensasi dingin instan, membersihkan minyak berlebih dan mencerahkan wajah kusam.",
     shopee: "https://shopee.co.id/search?keyword=garnier%20men%20super%20duo%20foam",
     tokopedia: "https://www.tokopedia.com/search?q=garnier%20men%20super%20duo%20foam"
@@ -67,7 +67,7 @@ const products = [
     id: 8,
     name: "Deodorant Black Rock Phantom 50 ml",
     category: "Perawatan Pria",
-    image: "assets/deodorant_black_rock_phantom.jpg",
+    image: "assets/deodorant_black_rock_phantom1.jpg",
     desc: "Roll-on deodorant pria dengan proteksi anti-keringat andal dan keharuman maskulin tahan lama sepanjang hari.",
     shopee: "https://shopee.co.id/search?keyword=deodorant%20black%20rock%20phantom",
     tokopedia: "https://www.tokopedia.com/search?q=deodorant%20black%20rock%20phantom"
