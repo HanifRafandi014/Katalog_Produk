@@ -6,7 +6,7 @@ const products = [
     category: "Perawatan Bayi",
     image: "assets/mitu_baby_powder.jpg",
     desc: "Bedak tabur bayi formulasi lembut menjaga kulit si kecil tetap halus, segar, wangi alami, dan bebas iritasi.",
-    shopee: "https://shopee.co.id/search?keyword=baby%20powder%20mitu%20baby%20fresh%20clean",
+    shopee: "https://s.shopee.co.id/2BFH75GYif",
     tokopedia: "https://www.tokopedia.com/search?q=baby%20powder%20mitu%20baby%20fresh%20clean"
   },
   {
