@@ -2,16 +2,16 @@
 const products = [
   {
     id: 1,
-    name: "Baby powder Mitu Baby Fresh & Clean 50+25 gram",
+    name: "Baby powder Mitu Baby Fresh & Clean",
     category: "Perawatan Bayi",
     image: "assets/mitu_baby_powder.jpg",
     desc: "Bedak tabur bayi formulasi lembut menjaga kulit si kecil tetap halus, segar, wangi alami, dan bebas iritasi.",
     shopee: "https://s.shopee.co.id/2BFH75GYif",
-    tokopedia: "https://www.tokopedia.com/search?q=baby%20powder%20mitu%20baby%20fresh%20clean"
+    tokopedia: "https://vt.tokopedia.com/t/ZS9DDonMUJ97q-WGRCe/"
   },
   {
     id: 2,
-    name: "Viva Hand & Body Lotion Mangir 100 ml",
+    name: "Viva Hand & Body Lotion Mangir",
     category: "Perawatan Kulit",
     image: "assets/viva_hand_body_mangir.jpg",
     desc: "Lotion tubuh dengan ekstrak mangir tradisional khas Indonesia untuk merawat kelembutan dan aroma alami kulit.",
@@ -20,25 +20,25 @@ const products = [
   },
   {
     id: 3,
-    name: "Viva Milk Cleanser Spirulina 100 ml",
+    name: "Viva Milk Cleanser Spirulina",
     category: "Pembersih Wajah",
     image: "assets/viva_milk_cleaner_spirulina.jpg",
     desc: "Susu pembersih wajah dengan kandungan spirulina untuk kulit kering/normal guna regenerasi sel kulit.",
     shopee: "https://shopee.co.id/search?keyword=viva%20milk%20cleanser%20spirulina",
-    tokopedia: "https://www.tokopedia.com/search?q=viva%20milk%20cleanser%20spirulina"
+    tokopedia: " https://vt.tokopedia.com/t/ZS9DDw4fB4TCR-OGPks/"
   },
   {
     id: 4,
-    name: "Viva Face Tonic Spirulina 100 ml",
+    name: "Viva Face Tonic Spirulina",
     category: "Pembersih Wajah",
     image: "assets/viva_face_tonik_spirulina.jpg",
     desc: "Penyegar wajah pendamping milk cleanser untuk membersihkan sisa kotoran dan menjaga pH alami kulit.",
     shopee: "https://shopee.co.id/search?keyword=viva%20face%20tonic%20spirulina",
-    tokopedia: "https://www.tokopedia.com/search?q=viva%20face%20tonic%20spirulina"
+    tokopedia: "https://vt.tokopedia.com/t/ZS9DDwDwSdQV8-kPfz1/"
   },
   {
     id: 5,
-    name: "Garnier Men Oil Control Bright + Oil Control Super Duo Foam 50 ml",
+    name: "Garnier Men Oil Control Bright + Oil Control Super Duo Foam",
     category: "Perawatan Pria",
     image: "assets/garnier_men_duo_foam1.jpg",
     desc: "Sabun cuci muka pria dengan sensasi dingin instan, membersihkan minyak berlebih dan mencerahkan wajah kusam.",
@@ -47,16 +47,16 @@ const products = [
   },
   {
     id: 6,
-    name: "Marina UV Health & Glow 8* Advanced Brightening 185 ml",
+    name: "Marina UV Health & Glow 8* Advanced Brightening",
     category: "Perawatan Kulit",
     image: "assets/marina_health_glow.jpg",
     desc: "Body lotion dengan perlindungan UV ganda dan Vitamin B3 & E untuk kulit tampak lebih cerah merata bercahaya.",
     shopee: "https://shopee.co.id/search?keyword=marina%20uv%20health%20glow%20185ml",
-    tokopedia: "https://www.tokopedia.com/search?q=marina%20uv%20health%20glow%20185ml"
+    tokopedia: "https://vt.tokopedia.com/t/ZS9DDKJNPQjxP-mjNde/"
   },
   {
     id: 7,
-    name: "Marina UV E Collagen Asta 8* Advanced Brightening 185 ml",
+    name: "Marina UV E Collagen Asta 8* Advanced Brightening",
     category: "Perawatan Kulit",
     image: "assets/marina_collagen_asta.jpg",
     desc: "Diperkaya Red Algae Astaxanthin dan Bio Collagen untuk menjaga kekenyalan, elastisitas, serta kecerahan kulit.",
@@ -65,30 +65,30 @@ const products = [
   },
   {
     id: 8,
-    name: "Deodorant Black Rock Phantom 50 ml",
+    name: "Deodorant Black Rock Phantom",
     category: "Perawatan Pria",
     image: "assets/deodorant_black_rock_phantom1.jpg",
     desc: "Roll-on deodorant pria dengan proteksi anti-keringat andal dan keharuman maskulin tahan lama sepanjang hari.",
     shopee: "https://shopee.co.id/search?keyword=deodorant%20black%20rock%20phantom",
-    tokopedia: "https://www.tokopedia.com/search?q=deodorant%20black%20rock%20phantom"
+    tokopedia: "https://vt.tokopedia.com/t/ZS9DDwLShfcmK-lue4i/"
   },
   {
     id: 9,
-    name: "Parfum Braven Cool Water 100 ml",
+    name: "Parfum Braven Cool Water",
     category: "Parfum & Wewangian",
     image: "assets/parfum_braven_cool_water.jpg",
     desc: "Eau De Parfum pria dengan wangi aquatic aquatic yang segar, sporty, dan elegan untuk pemakaian harian.",
     shopee: "https://shopee.co.id/search?keyword=parfum%20braven%20cool%20water",
-    tokopedia: "https://www.tokopedia.com/search?q=parfum%20braven%20cool%20water"
+    tokopedia: "https://vt.tokopedia.com/t/ZS9DDc7BjahRY-QXAcP/"
   },
   {
     id: 10,
-    name: "Stand Laptop Alumunium Portable 24 x 16 x 6.5 - 11.5 cm (Up to 15 Inch)",
+    name: "Stand Laptop Alumunium Portable",
     category: "Aksesoris Gadget",
     image: "assets/stand_laptop_alumunium.jpg",
     desc: "Dudukan laptop bahan aluminium kokoh, tinggi bisa disesuaikan, memperbaiki postur leher dan sirkulasi udara laptop.",
     shopee: "https://shopee.co.id/search?keyword=stand%20laptop%20aluminium%20portable",
-    tokopedia: "https://www.tokopedia.com/search?q=stand%20laptop%20aluminium%20portable"
+    tokopedia: "https://vt.tokopedia.com/t/ZS9DDKjAJnBq3-pIA1j/"
   },
   {
     id: 11,
@@ -97,34 +97,34 @@ const products = [
     image: "assets/kipas_mini_fan_m11.jpg",
     desc: "Kipas angin mini portable rechargeable baterai awet, mudah dibawa traveling dan diletakkan di atas meja kerja.",
     shopee: "https://shopee.co.id/search?keyword=kipas%20mini%20fan%20m11",
-    tokopedia: "https://www.tokopedia.com/search?q=kipas%20mini%20fan%20m11"
+    tokopedia: "https://vt.tokopedia.com/t/ZS9DDKWns5LN9-cAb3c/"
   },
   {
     id: 12,
-    name: "Sunscreen Skin Aqua UV Whitening Milk SPF 50 PA+++ 40 gram",
+    name: "Sunscreen Skin Aqua UV Whitening Milk SPF 50 PA+++",
     category: "Perawatan Kulit",
     image: "assets/skin_aqua_whitening_milk.jpg",
     desc: "Tabir surya harian bertekstur cair ringan cepat meresap tanpa white cast, melindungi kulit dari UVA & UVB.",
     shopee: "https://shopee.co.id/search?keyword=skin%20aqua%20uv%20whitening%20milk%20spf%2050",
-    tokopedia: "https://www.tokopedia.com/search?q=skin%20aqua%20uv%20whitening%20milk%20spf%2050"
+    tokopedia: "https://vt.tokopedia.com/t/ZS9DD3bHghmpg-LwB6U/"
   },
   {
     id: 13,
-    name: "Gatsby Normal Long Lasting Moisture 125 gram",
+    name: "Gatsby Normal Long Lasting Moisture",
     category: "Perawatan Pria",
     image: "assets/gatsby_normal_moisture.jpg",
     desc: "Styling hair cream untuk merapikan rambut pria dengan kilau natural dan kelembapan tahan lama.",
     shopee: "https://shopee.co.id/search?keyword=gatsby%20normal%20long%20lasting%20moisture",
-    tokopedia: "https://www.tokopedia.com/search?q=gatsby%20normal%20long%20lasting%20moisture"
+    tokopedia: "https://vt.tokopedia.com/t/ZS9DD3M95kYYv-mv9FE/"
   },
   {
     id: 14,
-    name: "Deodorant Inuoi Fresh 65 ml",
+    name: "Deodorant Inuoi Fresh",
     category: "Perawatan Tubuh",
     image: "assets/deodorant_inuoi_fresh.jpg",
     desc: "Deodorant spray/roll-on lembut di ketiak, mencegah bau badan tanpa meninggalkan noda kuning di pakaian.",
     shopee: "https://shopee.co.id/search?keyword=deodorant%20inuoi%20fresh",
-    tokopedia: "https://www.tokopedia.com/search?q=deodorant%20inuoi%20fresh"
+    tokopedia: "https://vt.tokopedia.com/t/ZS9DDTQuBwxYQ-qcdhL/"
   },
   {
     id: 15,
@@ -133,11 +133,11 @@ const products = [
     image: "assets/kipas_usb.jpg",
     desc: "Kipas mini fleksibel port USB praktis dicolok ke powerbank, laptop, atau port charger saat cuaca panas.",
     shopee: "https://shopee.co.id/search?keyword=kipas%20usb%20portable",
-    tokopedia: "https://www.tokopedia.com/search?q=kipas%20usb%20portable"
+    tokopedia: "https://vt.tokopedia.com/t/ZS9DDoNESuKor-xxsZk/"
   },
   {
     id: 16,
-    name: "Baterai Alkaline AA / A2 Isi 8 Pcs (1 Kotak Plastik)",
+    name: "Baterai Alkaline AA / A2 Isi 8 Pcs",
     category: "Elektronik & Rumah",
     image: "assets/baterai_alkaline_aa_8pcs.jpg",
     desc: "Baterai daya tahan tinggi untuk mouse, remote TV, jam dinding, dan mainan. Dilengkapi kotak penyimpanan rapi.",
@@ -151,7 +151,7 @@ const products = [
     image: "assets/brush_keyboard_7in1.jpg",
     desc: "Kit pembersih multifungsi untuk keyboard mechanical, TWS/earphone, layar smartphone, dan lensa kamera.",
     shopee: "https://shopee.co.id/search?keyword=brush%20pembersih%20keyboard%207%20in%201",
-    tokopedia: "https://www.tokopedia.com/search?q=brush%20pembersih%20keyboard%207%20in%201"
+    tokopedia: "https://vt.tokopedia.com/t/ZS9DDEYLANfgP-zKimB/"
   },
   {
     id: 18,
@@ -173,7 +173,7 @@ const products = [
   },
   {
     id: 20,
-    name: "Tas Ransel Sekolah Unisex Waterproof Ransel Distro Winner 088",
+    name: "Tas Ransel Distro Winner 088",
     category: "Fashion & Aksesoris",
     image: "assets/tas_ransel_winner_088.jpg",
     desc: "Backpack distro material nilon tahan air, slot laptop tebal, jahitan kuat cocok untuk sekolah, kuliah & harian.",
@@ -187,16 +187,16 @@ const products = [
     image: "assets/bantal_leher_karakter.jpg",
     desc: "Bantal leher travel empuk bentuk U dengan bahan velboa lembut, mencegah leher pegal saat traveling mobil & pesawat.",
     shopee: "https://shopee.co.id/search?keyword=bantal%20leher%20karakter",
-    tokopedia: "https://www.tokopedia.com/search?q=bantal%20leher%20karakter"
+    tokopedia: "https://vt.tokopedia.com/t/ZS9DDcLN2ygG2-1buDB/"
   },
   {
     id: 22,
-    name: "Bantal Alas Duduk Kursi Tebal 35 cm",
+    name: "Bantal Alas Duduk Kursi",
     category: "Perlengkapan Rumah",
     image: "assets/bantal_alas_duduk_35cm.jpg",
     desc: "Bantalan kursi busa tebal empuk dilengkapi tali pengikat, nyaman untuk kursi kerja, lesehan belajar, atau jok mobil.",
     shopee: "https://shopee.co.id/search?keyword=bantal%20alas%20duduk%20kursi%20tebal%2035",
-    tokopedia: "https://www.tokopedia.com/search?q=bantal%20alas%20duduk%20kursi%20tebal%2035"
+    tokopedia: "https://vt.tokopedia.com/t/ZS9DDvWVkGKFS-HuIYo/"
   },
   {
     id: 23,
@@ -209,7 +209,7 @@ const products = [
   },
   {
     id: 24,
-    name: "KOOYIINN 8 in 1 USB Hub Type-C To HDMI 4K OTG SD TF Card Reader 100M",
+    name: "Converter USB Type-C 8in1 S-1609 (HDMI VGA RJ45 Card Reader PD)",
     category: "Aksesoris Gadget",
     image: "assets/kooyiinn_usb_hub_8in1.jpg",
     desc: "Adapter converter multiport serbaguna: port 4K HDMI, USB 3.0, TF/SD card reader, dan slot LAN kabel internet.",
@@ -218,39 +218,66 @@ const products = [
   },
   {
     id: 25,
-    name: "OTG Type-C to USB / Connector Flashdisk Type C",
+    name: "Kollabex TYPE-C Flashdisk 3IN1 USB 3.0",
     category: "Aksesoris Gadget",
     image: "assets/otg_type_c_to_usb.jpg",
-    desc: "Konektor mini plug & play untuk menghubungkan flashdisk, mouse, keyboard ke ponsel atau laptop berport USB-C.",
+    desc: "Flashdisk 3 in 1 type C.",
     shopee: "https://shopee.co.id/search?keyword=otg%20type%20c%20to%20usb%20connector",
-    tokopedia: "https://www.tokopedia.com/search?q=otg%20type%20c%20to%20usb%20connector"
+    tokopedia: "https://vt.tokopedia.com/t/ZS9DDKovKDyfF-nvnEw/"
   },
   {
     id: 26,
-    name: "Holder STAND LIVE Mini Stand HP Rotary 360 Monopod 4.5 - 6.7 Inch",
+    name: "Holder Stand HP",
     category: "Aksesoris Gadget",
     image: "assets/holder_stand_live_360.jpg",
     desc: "Dudukan smartphone meja putar 360 derajat kokoh, ideal untuk live streaming, konten TikTok, rapat zoom & video call.",
     shopee: "https://shopee.co.id/search?keyword=holder%20stand%20live%20mini%20rotary%20360",
-    tokopedia: "https://www.tokopedia.com/search?q=holder%20stand%20live%20mini%20rotary%20360"
+    tokopedia: "https://vt.tokopedia.com/t/ZS9DDKjAJnBq3-pIA1j/"
   },
   {
     id: 27,
-    name: "Sandal Jepit Swallow Legian 100% FULL KARET",
+    name: "Sandal Jepit Swallow Legian",
     category: "Fashion & Aksesoris",
     image: "assets/sandal_swallow_legian.jpg",
     desc: "Sandal karet legendaris Swallow seri Legian orisinal, bahan karet murni empuk, lentur, tahan air, dan antiselip.",
     shopee: "https://shopee.co.id/search?keyword=sandal%20jepit%20swallow%20legian",
-    tokopedia: "https://www.tokopedia.com/search?q=sandal%20jepit%20swallow%20legian"
+    tokopedia: "https://vt.tokopedia.com/t/ZS9DDTLAB5oFx-HBseH/"
   },
   {
     id: 28,
-    name: "Masker Duckbill 3Ply Mix Pastel Gradasi (Isi 50 Pcs)",
+    name: "Masker Duckbill Mix Pastel Gradasi",
     category: "Perawatan Tubuh",
     image: "assets/masker_duckbill_pastel.jpg",
     desc: "Masker model duckbill 3 lapis proteksi dengan warna gradasi pastel estetik, tali elastis lembut dan bernapas lega.",
     shopee: "https://shopee.co.id/search?keyword=masker%20duckbill%203ply%20mix%20pastel%2050pcs",
-    tokopedia: "https://www.tokopedia.com/search?q=masker%20duckbill%203ply%20mix%20pastel%2050pcs"
+    tokopedia: "https://vt.tokopedia.com/t/ZS9DD3PWerrD7-Ief9y/"
+  },
+  {
+    id: 29,
+    name: "Ring light Tripod Mini Stand HP",
+    category: "Aksesoris Gadget",
+    image: "assets/masker_duckbill_pastel.jpg",
+    desc: "Masker model duckbill 3 lapis proteksi dengan warna gradasi pastel estetik, tali elastis lembut dan bernapas lega.",
+    shopee: "https://shopee.co.id/search?keyword=masker%20duckbill%203ply%20mix%20pastel%2050pcs",
+    tokopedia: "https://vt.tokopedia.com/t/ZS9DDKAHC41Gc-zET1Q/"
+  },
+  {
+    id: 30,
+    name: "SABUN MANDI BATANG HARMONY MIX",
+    category: "Perawatan Tubuh",
+    image: "assets/masker_duckbill_pastel.jpg",
+    desc: "Masker model duckbill 3 lapis proteksi dengan warna gradasi pastel estetik, tali elastis lembut dan bernapas lega.",
+    shopee: "https://shopee.co.id/search?keyword=masker%20duckbill%203ply%20mix%20pastel%2050pcs",
+    tokopedia: "https://vt.tokopedia.com/t/ZS9DDKAHC41Gc-zET1Q/"
+  },
+  {
+    id: 31,
+    name: "Hotin Cream Strong Aromaterapi Go Krim Capek",
+    category: "Perawatan Tubuh",
+    image: "assets/masker_duckbill_pastel.jpg",
+    desc: "Masker model duckbill 3 lapis proteksi dengan warna gradasi pastel estetik, tali elastis lembut dan bernapas lega.",
+    shopee: "https://shopee.co.id/search?keyword=masker%20duckbill%203ply%20mix%20pastel%2050pcs",
+    tokopedia: "https://vt.tokopedia.com/t/ZS9DDKAHC41Gc-zET1Q/"
   }
 ];
 
